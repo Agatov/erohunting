@@ -1,0 +1,89 @@
+.modal-overlay
+.modal-form.confirm
+  .form-title
+    Ответы на 3 самых популярных вопроса
+
+  .form-triggers
+    .trigger
+      .badge 1
+      .content
+        Наш салон расположен в Москве,
+        всего в пяти минутах от станции
+        метро Краснопресненская
+    .trigger
+      .badge 2
+      .content
+        Мы работаем строго без интима,
+        в полном соответствии
+        с законодательством РФ
+
+    .trigger
+      .badge 3
+      .content
+        Зарплату выплачиваем без
+        задержек, регулярно и в срок.
+        В среднем от 60 000 рублей
+
+
+  .form-subtitle
+    А обо всем остальном вам с удовольствием
+    %br
+    расскажет наш менеджер по персоналу Анна.
+
+  .form-offer
+    Напишите ваши контактные данные в форме снизу и она позвонит вам в течение дня
+
+  .form-body
+    %input{type: :text, name: :name, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+    %button.send-form Отправить
+
+
+
+.modal-form.reject
+  .form-title
+    Возможно, вам стоит это знать!
+
+  .form-triggers
+    .trigger
+      .badge 1
+      .content
+        Опыт работы желателен, но даже
+        если его нет - не беда, мы вас
+        всему научим.
+    .trigger
+      .badge 2
+      .content
+        Мы работаем строго без интима,
+        в полном соответствии
+        с законодательством РФ
+
+    .trigger
+      .badge 3
+      .content
+        Средняя зарплата наших
+        сотрудников - от 60 000 рублей.
+        Регулярно и без задержек.
+
+
+  .form-subtitle
+    Наш менеджер по персоналу Анна
+    %br
+    сможет рассказать вам гораздо больше.
+
+  .form-offer
+    Напишите ваши контактные данные в форме снизу и она позвонит вам в течение дня
+
+  .form-body
+    %input{type: :text, name: :name, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+    %button.send-form Отправить
+
+
+.modal-thank-you
+  .modal-header
+    Спасибо!
+  .body
+    Анна вам позвонит!
+    .button#hide-thank-you
+      Я буду ждать
